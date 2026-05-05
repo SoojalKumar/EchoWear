@@ -1,0 +1,1036 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54CCCEFB2EDC16C500A9ED9F /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CCCEFA2EDC16C500A9ED9F /* AuthenticationManager.swift */; };
+		54CCCEFD2EDC16CC00A9ED9F /* ModernSignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CCCEFC2EDC16CC00A9ED9F /* ModernSignInView.swift */; };
+		C07558512EA9892E00CAD040 /* EchoWearApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07558502EA9892E00CAD040 /* EchoWearApp.swift */; };
+		C07558532EA9892E00CAD040 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07558522EA9892E00CAD040 /* ContentView.swift */; };
+		C07558552EA9893100CAD040 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C07558542EA9893100CAD040 /* Assets.xcassets */; };
+		C07558592EA9893100CAD040 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C07558582EA9893100CAD040 /* Preview Assets.xcassets */; };
+		C07558632EA9893200CAD040 /* EchoWearTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07558622EA9893200CAD040 /* EchoWearTests.swift */; };
+		C075586D2EA9893200CAD040 /* EchoWearUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C075586C2EA9893200CAD040 /* EchoWearUITests.swift */; };
+		C075586F2EA9893200CAD040 /* EchoWearUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C075586E2EA9893200CAD040 /* EchoWearUITestsLaunchTests.swift */; };
+		C075587C2EB4336900CAD040 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C075587B2EB4336900CAD040 /* SpeechRecognizer.swift */; };
+		C07558842EB437EC00CAD040 /* EchoWeariosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07558832EB437EC00CAD040 /* EchoWeariosApp.swift */; };
+		C07558862EB437EC00CAD040 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07558852EB437EC00CAD040 /* ContentView.swift */; };
+		C07558882EB437EE00CAD040 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C07558872EB437EE00CAD040 /* Assets.xcassets */; };
+		C075588B2EB437EE00CAD040 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C075588A2EB437EE00CAD040 /* Preview Assets.xcassets */; };
+		C07558952EB437EE00CAD040 /* EchoWeariosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07558942EB437EE00CAD040 /* EchoWeariosTests.swift */; };
+		C075589F2EB437EE00CAD040 /* EchoWeariosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C075589E2EB437EE00CAD040 /* EchoWeariosUITests.swift */; };
+		C07558A12EB437EE00CAD040 /* EchoWeariosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07558A02EB437EE00CAD040 /* EchoWeariosUITestsLaunchTests.swift */; };
+		C07558AC2EB43A5D00CAD040 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07558AB2EB43A5D00CAD040 /* SpeechRecognizer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C075585F2EA9893200CAD040 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C07558452EA9892E00CAD040 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C075584C2EA9892E00CAD040;
+			remoteInfo = EchoWear;
+		};
+		C07558692EA9893200CAD040 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C07558452EA9892E00CAD040 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C075584C2EA9892E00CAD040;
+			remoteInfo = EchoWear;
+		};
+		C07558912EB437EE00CAD040 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C07558452EA9892E00CAD040 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C07558802EB437EC00CAD040;
+			remoteInfo = EchoWearios;
+		};
+		C075589B2EB437EE00CAD040 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C07558452EA9892E00CAD040 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C07558802EB437EC00CAD040;
+			remoteInfo = EchoWearios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54CCCEFA2EDC16C500A9ED9F /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		54CCCEFC2EDC16CC00A9ED9F /* ModernSignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModernSignInView.swift; sourceTree = "<group>"; };
+		C075584D2EA9892E00CAD040 /* EchoWear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EchoWear.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07558502EA9892E00CAD040 /* EchoWearApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EchoWearApp.swift; sourceTree = "<group>"; };
+		C07558522EA9892E00CAD040 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C07558542EA9893100CAD040 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C07558562EA9893100CAD040 /* EchoWear.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EchoWear.entitlements; sourceTree = "<group>"; };
+		C07558582EA9893100CAD040 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C075585E2EA9893200CAD040 /* EchoWearTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EchoWearTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07558622EA9893200CAD040 /* EchoWearTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EchoWearTests.swift; sourceTree = "<group>"; };
+		C07558682EA9893200CAD040 /* EchoWearUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EchoWearUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C075586C2EA9893200CAD040 /* EchoWearUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EchoWearUITests.swift; sourceTree = "<group>"; };
+		C075586E2EA9893200CAD040 /* EchoWearUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EchoWearUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C075587B2EB4336900CAD040 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		C07558812EB437EC00CAD040 /* EchoWearios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EchoWearios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07558832EB437EC00CAD040 /* EchoWeariosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EchoWeariosApp.swift; sourceTree = "<group>"; };
+		C07558852EB437EC00CAD040 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C07558872EB437EE00CAD040 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C075588A2EB437EE00CAD040 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C07558902EB437EE00CAD040 /* EchoWeariosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EchoWeariosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07558942EB437EE00CAD040 /* EchoWeariosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EchoWeariosTests.swift; sourceTree = "<group>"; };
+		C075589A2EB437EE00CAD040 /* EchoWeariosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EchoWeariosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C075589E2EB437EE00CAD040 /* EchoWeariosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EchoWeariosUITests.swift; sourceTree = "<group>"; };
+		C07558A02EB437EE00CAD040 /* EchoWeariosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EchoWeariosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C07558AB2EB43A5D00CAD040 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C075584A2EA9892E00CAD040 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C075585B2EA9893200CAD040 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07558652EA9893200CAD040 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C075587E2EB437EC00CAD040 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C075588D2EB437EE00CAD040 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07558972EB437EE00CAD040 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C07558442EA9892E00CAD040 = {
+			isa = PBXGroup;
+			children = (
+				C075584F2EA9892E00CAD040 /* EchoWear */,
+				C07558612EA9893200CAD040 /* EchoWearTests */,
+				C075586B2EA9893200CAD040 /* EchoWearUITests */,
+				C07558822EB437EC00CAD040 /* EchoWearios */,
+				C07558932EB437EE00CAD040 /* EchoWeariosTests */,
+				C075589D2EB437EE00CAD040 /* EchoWeariosUITests */,
+				C075584E2EA9892E00CAD040 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C075584E2EA9892E00CAD040 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C075584D2EA9892E00CAD040 /* EchoWear.app */,
+				C075585E2EA9893200CAD040 /* EchoWearTests.xctest */,
+				C07558682EA9893200CAD040 /* EchoWearUITests.xctest */,
+				C07558812EB437EC00CAD040 /* EchoWearios.app */,
+				C07558902EB437EE00CAD040 /* EchoWeariosTests.xctest */,
+				C075589A2EB437EE00CAD040 /* EchoWeariosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C075584F2EA9892E00CAD040 /* EchoWear */ = {
+			isa = PBXGroup;
+			children = (
+				C075587B2EB4336900CAD040 /* SpeechRecognizer.swift */,
+				C07558502EA9892E00CAD040 /* EchoWearApp.swift */,
+				C07558522EA9892E00CAD040 /* ContentView.swift */,
+				C07558542EA9893100CAD040 /* Assets.xcassets */,
+				C07558562EA9893100CAD040 /* EchoWear.entitlements */,
+				C07558572EA9893100CAD040 /* Preview Content */,
+			);
+			path = EchoWear;
+			sourceTree = "<group>";
+		};
+		C07558572EA9893100CAD040 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C07558582EA9893100CAD040 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C07558612EA9893200CAD040 /* EchoWearTests */ = {
+			isa = PBXGroup;
+			children = (
+				C07558622EA9893200CAD040 /* EchoWearTests.swift */,
+			);
+			path = EchoWearTests;
+			sourceTree = "<group>";
+		};
+		C075586B2EA9893200CAD040 /* EchoWearUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C075586C2EA9893200CAD040 /* EchoWearUITests.swift */,
+				C075586E2EA9893200CAD040 /* EchoWearUITestsLaunchTests.swift */,
+			);
+			path = EchoWearUITests;
+			sourceTree = "<group>";
+		};
+		C07558822EB437EC00CAD040 /* EchoWearios */ = {
+			isa = PBXGroup;
+			children = (
+				54CCCEFC2EDC16CC00A9ED9F /* ModernSignInView.swift */,
+				54CCCEFA2EDC16C500A9ED9F /* AuthenticationManager.swift */,
+				C07558832EB437EC00CAD040 /* EchoWeariosApp.swift */,
+				C07558852EB437EC00CAD040 /* ContentView.swift */,
+				C07558AB2EB43A5D00CAD040 /* SpeechRecognizer.swift */,
+				C07558872EB437EE00CAD040 /* Assets.xcassets */,
+				C07558892EB437EE00CAD040 /* Preview Content */,
+			);
+			path = EchoWearios;
+			sourceTree = "<group>";
+		};
+		C07558892EB437EE00CAD040 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C075588A2EB437EE00CAD040 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C07558932EB437EE00CAD040 /* EchoWeariosTests */ = {
+			isa = PBXGroup;
+			children = (
+				C07558942EB437EE00CAD040 /* EchoWeariosTests.swift */,
+			);
+			path = EchoWeariosTests;
+			sourceTree = "<group>";
+		};
+		C075589D2EB437EE00CAD040 /* EchoWeariosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C075589E2EB437EE00CAD040 /* EchoWeariosUITests.swift */,
+				C07558A02EB437EE00CAD040 /* EchoWeariosUITestsLaunchTests.swift */,
+			);
+			path = EchoWeariosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C075584C2EA9892E00CAD040 /* EchoWear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C07558722EA9893200CAD040 /* Build configuration list for PBXNativeTarget "EchoWear" */;
+			buildPhases = (
+				C07558492EA9892E00CAD040 /* Sources */,
+				C075584A2EA9892E00CAD040 /* Frameworks */,
+				C075584B2EA9892E00CAD040 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EchoWear;
+			productName = EchoWear;
+			productReference = C075584D2EA9892E00CAD040 /* EchoWear.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C075585D2EA9893200CAD040 /* EchoWearTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C07558752EA9893200CAD040 /* Build configuration list for PBXNativeTarget "EchoWearTests" */;
+			buildPhases = (
+				C075585A2EA9893200CAD040 /* Sources */,
+				C075585B2EA9893200CAD040 /* Frameworks */,
+				C075585C2EA9893200CAD040 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C07558602EA9893200CAD040 /* PBXTargetDependency */,
+			);
+			name = EchoWearTests;
+			productName = EchoWearTests;
+			productReference = C075585E2EA9893200CAD040 /* EchoWearTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C07558672EA9893200CAD040 /* EchoWearUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C07558782EA9893200CAD040 /* Build configuration list for PBXNativeTarget "EchoWearUITests" */;
+			buildPhases = (
+				C07558642EA9893200CAD040 /* Sources */,
+				C07558652EA9893200CAD040 /* Frameworks */,
+				C07558662EA9893200CAD040 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C075586A2EA9893200CAD040 /* PBXTargetDependency */,
+			);
+			name = EchoWearUITests;
+			productName = EchoWearUITests;
+			productReference = C07558682EA9893200CAD040 /* EchoWearUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C07558802EB437EC00CAD040 /* EchoWearios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C07558A22EB437EE00CAD040 /* Build configuration list for PBXNativeTarget "EchoWearios" */;
+			buildPhases = (
+				C075587D2EB437EC00CAD040 /* Sources */,
+				C075587E2EB437EC00CAD040 /* Frameworks */,
+				C075587F2EB437EC00CAD040 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EchoWearios;
+			productName = EchoWearios;
+			productReference = C07558812EB437EC00CAD040 /* EchoWearios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C075588F2EB437EE00CAD040 /* EchoWeariosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C07558A52EB437EE00CAD040 /* Build configuration list for PBXNativeTarget "EchoWeariosTests" */;
+			buildPhases = (
+				C075588C2EB437EE00CAD040 /* Sources */,
+				C075588D2EB437EE00CAD040 /* Frameworks */,
+				C075588E2EB437EE00CAD040 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C07558922EB437EE00CAD040 /* PBXTargetDependency */,
+			);
+			name = EchoWeariosTests;
+			productName = EchoWeariosTests;
+			productReference = C07558902EB437EE00CAD040 /* EchoWeariosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C07558992EB437EE00CAD040 /* EchoWeariosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C07558A82EB437EE00CAD040 /* Build configuration list for PBXNativeTarget "EchoWeariosUITests" */;
+			buildPhases = (
+				C07558962EB437EE00CAD040 /* Sources */,
+				C07558972EB437EE00CAD040 /* Frameworks */,
+				C07558982EB437EE00CAD040 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C075589C2EB437EE00CAD040 /* PBXTargetDependency */,
+			);
+			name = EchoWeariosUITests;
+			productName = EchoWeariosUITests;
+			productReference = C075589A2EB437EE00CAD040 /* EchoWeariosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C07558452EA9892E00CAD040 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					C075584C2EA9892E00CAD040 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					C075585D2EA9893200CAD040 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C075584C2EA9892E00CAD040;
+					};
+					C07558672EA9893200CAD040 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C075584C2EA9892E00CAD040;
+					};
+					C07558802EB437EC00CAD040 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					C075588F2EB437EE00CAD040 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C07558802EB437EC00CAD040;
+					};
+					C07558992EB437EE00CAD040 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C07558802EB437EC00CAD040;
+					};
+				};
+			};
+			buildConfigurationList = C07558482EA9892E00CAD040 /* Build configuration list for PBXProject "EchoWear" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C07558442EA9892E00CAD040;
+			productRefGroup = C075584E2EA9892E00CAD040 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C07558802EB437EC00CAD040 /* EchoWearios */,
+				C075584C2EA9892E00CAD040 /* EchoWear */,
+				C075585D2EA9893200CAD040 /* EchoWearTests */,
+				C07558672EA9893200CAD040 /* EchoWearUITests */,
+				C075588F2EB437EE00CAD040 /* EchoWeariosTests */,
+				C07558992EB437EE00CAD040 /* EchoWeariosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C075584B2EA9892E00CAD040 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07558592EA9893100CAD040 /* Preview Assets.xcassets in Resources */,
+				C07558552EA9893100CAD040 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C075585C2EA9893200CAD040 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07558662EA9893200CAD040 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C075587F2EB437EC00CAD040 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C075588B2EB437EE00CAD040 /* Preview Assets.xcassets in Resources */,
+				C07558882EB437EE00CAD040 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C075588E2EB437EE00CAD040 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07558982EB437EE00CAD040 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C07558492EA9892E00CAD040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07558532EA9892E00CAD040 /* ContentView.swift in Sources */,
+				C07558512EA9892E00CAD040 /* EchoWearApp.swift in Sources */,
+				C075587C2EB4336900CAD040 /* SpeechRecognizer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C075585A2EA9893200CAD040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07558632EA9893200CAD040 /* EchoWearTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07558642EA9893200CAD040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C075586F2EA9893200CAD040 /* EchoWearUITestsLaunchTests.swift in Sources */,
+				C075586D2EA9893200CAD040 /* EchoWearUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C075587D2EB437EC00CAD040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54CCCEFD2EDC16CC00A9ED9F /* ModernSignInView.swift in Sources */,
+				C07558862EB437EC00CAD040 /* ContentView.swift in Sources */,
+				54CCCEFB2EDC16C500A9ED9F /* AuthenticationManager.swift in Sources */,
+				C07558842EB437EC00CAD040 /* EchoWeariosApp.swift in Sources */,
+				C07558AC2EB43A5D00CAD040 /* SpeechRecognizer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C075588C2EB437EE00CAD040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07558952EB437EE00CAD040 /* EchoWeariosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07558962EB437EE00CAD040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07558A12EB437EE00CAD040 /* EchoWeariosUITestsLaunchTests.swift in Sources */,
+				C075589F2EB437EE00CAD040 /* EchoWeariosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C07558602EA9893200CAD040 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C075584C2EA9892E00CAD040 /* EchoWear */;
+			targetProxy = C075585F2EA9893200CAD040 /* PBXContainerItemProxy */;
+		};
+		C075586A2EA9893200CAD040 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C075584C2EA9892E00CAD040 /* EchoWear */;
+			targetProxy = C07558692EA9893200CAD040 /* PBXContainerItemProxy */;
+		};
+		C07558922EB437EE00CAD040 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C07558802EB437EC00CAD040 /* EchoWearios */;
+			targetProxy = C07558912EB437EE00CAD040 /* PBXContainerItemProxy */;
+		};
+		C075589C2EB437EE00CAD040 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C07558802EB437EC00CAD040 /* EchoWearios */;
+			targetProxy = C075589B2EB437EE00CAD040 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C07558702EA9893200CAD040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C07558712EA9893200CAD040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C07558732EA9893200CAD040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EchoWear/EchoWear.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EchoWear/Preview Content\"";
+				DEVELOPMENT_TEAM = 93PQ74XPCA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "EchoWear needs microphone access to listen for your name and emergency keywords.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "EchoWear uses speech recognition to detect when someone calls your name or emergency keywords.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UoP.EchoWear;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C07558742EA9893200CAD040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EchoWear/EchoWear.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EchoWear/Preview Content\"";
+				DEVELOPMENT_TEAM = 93PQ74XPCA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "EchoWear needs microphone access to listen for your name and emergency keywords.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "EchoWear uses speech recognition to detect when someone calls your name or emergency keywords.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UoP.EchoWear;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C07558762EA9893200CAD040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UoP.EchoWearTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EchoWear.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EchoWear";
+			};
+			name = Debug;
+		};
+		C07558772EA9893200CAD040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UoP.EchoWearTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EchoWear.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EchoWear";
+			};
+			name = Release;
+		};
+		C07558792EA9893200CAD040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UoP.EchoWearUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EchoWear;
+			};
+			name = Debug;
+		};
+		C075587A2EA9893200CAD040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UoP.EchoWearUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EchoWear;
+			};
+			name = Release;
+		};
+		C07558A32EB437EE00CAD040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EchoWearios/Preview Content\"";
+				DEVELOPMENT_TEAM = 93PQ74XPCA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "EchoWear needs microphone access to listen for your name and emergency keywords.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "EchoWear uses speech recognition to detect when someone calls your name or emergency keywords.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UoP.ArkEchoWearios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C07558A42EB437EE00CAD040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EchoWearios/Preview Content\"";
+				DEVELOPMENT_TEAM = 93PQ74XPCA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "EchoWear needs microphone access to listen for your name and emergency keywords.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "EchoWear uses speech recognition to detect when someone calls your name or emergency keywords.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UoP.EchoWearios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C07558A62EB437EE00CAD040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93PQ74XPCA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UoP.EchoWeariosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EchoWearios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EchoWearios";
+			};
+			name = Debug;
+		};
+		C07558A72EB437EE00CAD040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93PQ74XPCA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UoP.EchoWeariosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EchoWearios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EchoWearios";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C07558A92EB437EE00CAD040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93PQ74XPCA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UoP.EchoWeariosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EchoWearios;
+			};
+			name = Debug;
+		};
+		C07558AA2EB437EE00CAD040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93PQ74XPCA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UoP.EchoWeariosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EchoWearios;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C07558482EA9892E00CAD040 /* Build configuration list for PBXProject "EchoWear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07558702EA9893200CAD040 /* Debug */,
+				C07558712EA9893200CAD040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C07558722EA9893200CAD040 /* Build configuration list for PBXNativeTarget "EchoWear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07558732EA9893200CAD040 /* Debug */,
+				C07558742EA9893200CAD040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C07558752EA9893200CAD040 /* Build configuration list for PBXNativeTarget "EchoWearTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07558762EA9893200CAD040 /* Debug */,
+				C07558772EA9893200CAD040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C07558782EA9893200CAD040 /* Build configuration list for PBXNativeTarget "EchoWearUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07558792EA9893200CAD040 /* Debug */,
+				C075587A2EA9893200CAD040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C07558A22EB437EE00CAD040 /* Build configuration list for PBXNativeTarget "EchoWearios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07558A32EB437EE00CAD040 /* Debug */,
+				C07558A42EB437EE00CAD040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C07558A52EB437EE00CAD040 /* Build configuration list for PBXNativeTarget "EchoWeariosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07558A62EB437EE00CAD040 /* Debug */,
+				C07558A72EB437EE00CAD040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C07558A82EB437EE00CAD040 /* Build configuration list for PBXNativeTarget "EchoWeariosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07558A92EB437EE00CAD040 /* Debug */,
+				C07558AA2EB437EE00CAD040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C07558452EA9892E00CAD040 /* Project object */;
+}
